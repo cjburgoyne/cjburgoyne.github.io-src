@@ -8,6 +8,8 @@ SITEURL = u'http://localhost:8000'
 SITETITLE = AUTHOR
 SITESUBTITLE = u'Analytics and Data Visualization'
 
+ROBOTS = u'index, follow'
+
 PATH = 'content'
 THEME = '../pelican-themes/Flex'
 TIMEZONE = 'America/New_York'
@@ -20,15 +22,18 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-MAINMENU = True
+MAIN_MENU = True
 
 # Blogroll
-LINKS = (('bl.ocks', 'https://bl.ocks.org/cjburgoyne'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('bl.ocks', 'https://bl.ocks.org/cjburgoyne'),)
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/chrisjburgoyne'),
-          ('github', 'https://github.com/cjburgoyne'),)
+          ('github', 'https://github.com/cjburgoyne'),
+          ('linkedin', 'https://linkedin.com/pub/christopher-burgoyne/11/402/a07'))
+
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Tags', '/tags.html'),)
 
 DEFAULT_PAGINATION = 10
 
