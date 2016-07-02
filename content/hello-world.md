@@ -4,6 +4,6 @@ Tags: pelican
 Author: Chris Burgoyne
 Summary: My First Post
 
-I'm up an running with Github Pages.
+I'm up and running with Github Pages.
 
 Welcome.

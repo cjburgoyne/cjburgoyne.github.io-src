@@ -7,6 +7,7 @@ SITENAME = u'Chris Burgoyne'
 SITEURL = u'http://localhost:8000'
 SITETITLE = AUTHOR
 SITESUBTITLE = u'Analytics and Data Visualization'
+SITELOGO = u'http://s.gravatar.com/avatar/2b4d9e624fad6b85969adfb7ccaf6184?s=240'
 
 ROBOTS = u'index, follow'
 
